@@ -15,5 +15,16 @@
 
   <body>
     <script src="sketch.js"></script>
+    <div id="rainfall-legend">
+      <h4>雨量等級圖例</h4>
+      <ul>
+        <!-- 根據中央氣象署24小時累積雨量標準 -->
+        <li><span class="color-box" style="background-color: #990099;"></span>超大豪雨 (500mm+)</li>
+        <li><span class="color-box" style="background-color: #FF0000;"></span>大豪雨 (350mm+)</li>
+        <li><span class="color-box" style="background-color: #FFA500;"></span>豪雨 (200mm+)</li>
+        <li><span class="color-box" style="background-color: #FFFF00; border: 1px solid #ccc;"></span>大雨 (80mm+)</li>
+        <li><span class="color-box" style="background-color: #0096FF;"></span>正常 (&lt; 80mm)</li>
+      </ul>
+    </div>
   </body>
 </html>
